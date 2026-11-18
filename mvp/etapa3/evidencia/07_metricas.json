@@ -1,0 +1,197 @@
+{
+  "caso": {
+    "expediente_id": "EXP-2024-089",
+    "requisitos_total": 7,
+    "peso_total_pct": 100,
+    "peso_revisado_pct": 100,
+    "cobertura_revision_pct": 100.0,
+    "peso_concluyente_pct": 34,
+    "cumplimiento_pct": 100.0,
+    "con_propuesta_valida": 7,
+    "con_evaluacion_manual": 0,
+    "contingencias": 0,
+    "requiere_revision": 5,
+    "sin_informacion": 0,
+    "cumple": 2,
+    "parcial": 0,
+    "no_cumple": 0,
+    "pendientes": 0,
+    "integridad_alertas": 0,
+    "requisitos": [
+      {
+        "requisito_id": "RQ-01",
+        "requisito": "Experiencia del postor",
+        "peso_pct": 14,
+        "criterio": "Facturación mayor a S/ 5 MM en los últimos 5 años",
+        "evidencias": 2,
+        "estado_efectivo": "Requiere revisión especializada",
+        "origen": "ia_valida",
+        "propuesta_valida": true,
+        "evaluacion_manual": false,
+        "contingencia": false,
+        "integridad_alerta": false,
+        "motivo": "La evidencia localizada es de tipo 'TDR / Bases', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+      },
+      {
+        "requisito_id": "RQ-02",
+        "requisito": "Personal clave - Residente",
+        "peso_pct": 17,
+        "criterio": "Ing. Civil colegiado con 8 años de experiencia",
+        "evidencias": 1,
+        "estado_efectivo": "Requiere revisión especializada",
+        "origen": "ia_valida",
+        "propuesta_valida": true,
+        "evaluacion_manual": false,
+        "contingencia": false,
+        "integridad_alerta": false,
+        "motivo": "La evidencia localizada es de tipo 'TDR / Bases', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+      },
+      {
+        "requisito_id": "RQ-03",
+        "requisito": "Equipamiento mínimo",
+        "peso_pct": 11,
+        "criterio": "Lista de 15 equipos propios o alquilados",
+        "evidencias": 2,
+        "estado_efectivo": "Requiere revisión especializada",
+        "origen": "ia_valida",
+        "propuesta_valida": true,
+        "evaluacion_manual": false,
+        "contingencia": false,
+        "integridad_alerta": false,
+        "motivo": "La evidencia localizada es de tipo 'TDR / Bases', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+      },
+      {
+        "requisito_id": "RQ-04",
+        "requisito": "Presupuesto por partidas",
+        "peso_pct": 21,
+        "criterio": "Partidas, metrados y precios unitarios coherentes; ponderación 21%",
+        "evidencias": 5,
+        "estado_efectivo": "Cumple",
+        "origen": "ia_valida",
+        "propuesta_valida": true,
+        "evaluacion_manual": false,
+        "contingencia": false,
+        "integridad_alerta": false,
+        "motivo": "La evidencia de tipo 'Presupuesto por partidas' contiene los elementos del criterio y alcanza 17 puntos (umbral 12)."
+      },
+      {
+        "requisito_id": "RQ-05",
+        "requisito": "Metrados y sustento",
+        "peso_pct": 14,
+        "criterio": "Coherencia entre planos y hoja de metrados",
+        "evidencias": 2,
+        "estado_efectivo": "Requiere revisión especializada",
+        "origen": "ia_valida",
+        "propuesta_valida": true,
+        "evaluacion_manual": false,
+        "contingencia": false,
+        "integridad_alerta": false,
+        "motivo": "La evidencia localizada es de tipo 'Planos', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+      },
+      {
+        "requisito_id": "RQ-06",
+        "requisito": "Cronograma valorizado",
+        "peso_pct": 10,
+        "criterio": "Curva S y ruta crítica coherentes",
+        "evidencias": 2,
+        "estado_efectivo": "Requiere revisión especializada",
+        "origen": "ia_valida",
+        "propuesta_valida": true,
+        "evaluacion_manual": false,
+        "contingencia": false,
+        "integridad_alerta": false,
+        "motivo": "El tipo documental es el esperado, pero el criterio exige juicio de ingeniería (coherencia o trazabilidad) que el MVP no automatiza."
+      },
+      {
+        "requisito_id": "RQ-07",
+        "requisito": "Plan de manejo ambiental",
+        "peso_pct": 13,
+        "criterio": "Instrumento ambiental vigente",
+        "evidencias": 1,
+        "estado_efectivo": "Cumple",
+        "origen": "ia_valida",
+        "propuesta_valida": true,
+        "evaluacion_manual": false,
+        "contingencia": false,
+        "integridad_alerta": false,
+        "motivo": "La evidencia de tipo 'Estudio ambiental' contiene los elementos del criterio y alcanza 48 puntos (umbral 20)."
+      }
+    ]
+  },
+  "control": {
+    "expediente_id": "EXP-2024-089-CONTROL",
+    "requisito_id": "RQ-01",
+    "estado": "No se encontró información",
+    "valida": true,
+    "propuesta": {
+      "requisito_id": "RQ-01",
+      "estado_propuesto": "No se encontró información",
+      "evidencia_encontrada": false,
+      "fuente": null,
+      "cita": null,
+      "observacion_preliminar": "No se localizaron fragmentos con los términos del requisito por encima del puntaje mínimo. La ausencia de evidencia no equivale a incumplimiento.",
+      "requiere_revision_especializada": false,
+      "motivo": "Sin evidencia recuperada en los documentos válidos y clasificados del expediente."
+    },
+    "errores": [],
+    "intentos": 1,
+    "proveedor": "reglas",
+    "modelo": "determinista-v1",
+    "duracion_ms": 20,
+    "tokens_entrada": 0,
+    "tokens_salida": 0,
+    "evidencias": [],
+    "contingencia": false
+  },
+  "evidencia": {
+    "requisitos": 7,
+    "total_evidencias": 15,
+    "por_requisito": {
+      "RQ-01": 2,
+      "RQ-02": 1,
+      "RQ-03": 2,
+      "RQ-04": 5,
+      "RQ-05": 2,
+      "RQ-06": 2,
+      "RQ-07": 1
+    },
+    "duracion_ms": 222
+  },
+  "analisis": {
+    "duracion_ms": 493,
+    "propuestas_validas": 7,
+    "conclusiones": 2
+  },
+  "contrato": {
+    "rechazo_intentos": 3,
+    "rechazo_contingencia": true,
+    "reintento_intentos": 2,
+    "reintento_valida": true
+  },
+  "integridad": {
+    "expediente": "EXP-2024-089-INTEGRIDAD",
+    "estado_previo": "Cumple",
+    "estado": "FUENTE_MODIFICADA",
+    "evidencias_afectadas": 2,
+    "propuestas_afectadas": 1,
+    "reanalisis_estado": "Requiere revisión especializada",
+    "reanalisis_proveedor": "integridad"
+  },
+  "contingencia": {
+    "expediente": "EXP-2024-089-VALIDACION",
+    "intentos": 3,
+    "contingencia": true,
+    "propuesta_valida": false
+  },
+  "evaluacion_manual": {
+    "id": 1,
+    "expediente_id": "EXP-2024-089-VALIDACION",
+    "requisito_id": "RQ-04",
+    "estado": "Requiere revisión especializada",
+    "motivo": "La fuente fue modificada y el servicio de IA no está disponible; se revisará el presupuesto actualizado.",
+    "actor": "Lucía Ramos",
+    "evidencia_id": null,
+    "creado_en": "2026-11-11T22:30:28"
+  },
+  "ingesta_ms": 682
+}

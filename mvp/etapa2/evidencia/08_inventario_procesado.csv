@@ -1,0 +1,7 @@
+id,nombre_archivo,formato,estado,motivo_rechazo,sha256,texto_recuperable,paginas,fragmentos,cache_hit,tipo_documental,componente,confianza,estado_clasificacion,clasificacion_origen,duracion_ms
+1,EETT_General_v2.docx,DOCX,VALIDO,,88f3898403e5ecb93cfc463c89380d12fec76918ae951d63fe14d1eb231358bd,si,,4,False,Especificaciones técnicas,EETT,64,Sin clasificar,automatico,32
+2,Estudio_Suelos_Lab.xlsx,XLSX,VALIDO,,7dfe84d108a5584f05a927abc1c8eee6e1515e307569dd00b5d17ade82a66863,si,,14,False,Estudio de suelos,Geotecnia,96,Clasificado,automatico,25
+3,Memoria_Calculo_Pavimentos.docx,DOCX,VALIDO,,7195e48bf86694f82210c0f0dad005399b539f5d43b00beeefbcb3db8f9045d2,si,,12,False,Memoria técnica,Pavimentos,88,Clasificado,automatico,26
+4,Planos_PL-01_PL-08.pdf,PDF,VALIDO,,82594d969d3a3bdac055552d7656edfd8576b9653f89cf67b4e4c004914dd7af,parcial,8,5,False,Planos,Planos,96,Clasificado,automatico,148
+5,Presupuesto.xlsx,XLSX,VALIDO,,36985746738b80f03fef9b3c68a46841b1999c336602ac114b80b2f3695bb044,si,,24,False,Presupuesto por partidas,Presupuesto,94,Clasificado,automatico,22
+6,TDR_Carretera_Central_v3.pdf,PDF,VALIDO,,227583f6535620048e19f9175446641e031371a8f9a5c79c9dff9422dfcf462d,si,1,2,False,TDR / Bases,TDR,90,Clasificado,automatico,45

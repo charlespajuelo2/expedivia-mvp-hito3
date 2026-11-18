@@ -1,0 +1,61 @@
+{
+  "formato": "video demo narrado con capturas reales de la app",
+  "voz": "Microsoft Helena Desktop (es-ES), síntesis",
+  "escenas": [
+    {
+      "id": "intro",
+      "titulo": "Apertura",
+      "texto": "Este es Expedivia, el MVP para revisar expedientes técnicos viales. Trabajamos con el caso EXP 2024 089: una carretera con ocho documentos y siete requisitos. La meta no es reemplazar al especialista, sino darle evidencia verificable y un rastro claro de cada decisión.",
+      "segundos": 21.1
+    },
+    {
+      "id": "carga",
+      "titulo": "Carga y clasificación",
+      "texto": "Empezamos por la carga. El sistema valida el formato, calcula el hash de cada archivo y reutiliza la extracción si el documento ya existe. Después clasifica el documento. Si el nombre no describe el contenido, el especialista corrige la clasificación y esa corrección queda vinculada al hash.",
+      "segundos": 20.3
+    },
+    {
+      "id": "extraccion",
+      "titulo": "Extracción con ubicación",
+      "texto": "La extracción conserva la ubicación exacta. En un PDF, la página; en Word, el párrafo; en Excel, la hoja y la fila. Cada fragmento se puede abrir y contrastar. Esto es lo que convierte una cita en evidencia verificable y no en una afirmación sin respaldo.",
+      "segundos": 19.8
+    },
+    {
+      "id": "evidencia",
+      "titulo": "Evidencia y contrato",
+      "texto": "En la pestaña de evidencia, el sistema recupera fragmentos para cada requisito y los somete a un contrato JSON estricto: archivo, ubicación, cita, hash y estado. Si una fuente cambia después del análisis, la integridad se marca y la propuesta deja de ser confiable. La persona puede revisar o registrar una evaluación manual.",
+      "segundos": 22.8
+    },
+    {
+      "id": "decision",
+      "titulo": "Decisión y avance",
+      "texto": "Aquí está el corazón del MVP: la decisión es humana. El especialista acepta, modifica o descarta con un motivo obligatorio. El historial es inmutable y solo una decisión por requisito queda vigente. El avance ponderado se calcula únicamente con esas decisiones: en este caso, treinta y nueve por ciento, con cuatro de siete requisitos decididos.",
+      "segundos": 24.7
+    },
+    {
+      "id": "exportacion",
+      "titulo": "Informes",
+      "texto": "Con los datos ya persistidos, se generan los informes. El Excel y el Word se construyen desde SQLite, no desde una plantilla con datos fijos. El informe conserva las fuentes, las decisiones y las métricas. El resultado queda disponible para descargar y volver a auditar.",
+      "segundos": 20.0
+    },
+    {
+      "id": "auditoria",
+      "titulo": "Auditoría",
+      "texto": "La auditoría muestra el rastro de cada acción: documentos, propuestas, decisiones y verificaciones de integridad. También permite explicar cómo se llegó a un resultado y qué cambió entre una versión y otra. Sin ese rastro, la revisión no sería defendible.",
+      "segundos": 18.3
+    },
+    {
+      "id": "permisos",
+      "titulo": "Control de acceso",
+      "texto": "El acceso también se controla. Un lector puede consultar el expediente, pero no decidir ni exportar. El bloqueo se explica en pantalla, con el rol y el permiso que falta. No es un error silencioso: es una regla visible.",
+      "segundos": 17.0
+    },
+    {
+      "id": "cierre",
+      "titulo": "Cierre",
+      "texto": "Quedan límites claros: no hay OCR para documentos escaneados, la IA real es opcional, los datos son sintéticos y falta el feedback formal de un especialista. Expedivia no decide por la persona: le da evidencia para decidir mejor. Ese es el siguiente paso antes de un piloto.",
+      "segundos": 19.5
+    }
+  ],
+  "duracion_estimada_s": 186.6
+}

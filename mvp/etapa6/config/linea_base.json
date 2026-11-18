@@ -1,0 +1,45 @@
+{
+  "version": "v1",
+  "nota": "Línea base estimada para el expediente EXP-2024-089 (8 documentos, 7 requisitos). No es un cronometraje real: es una estimación conservadora declarada para comparar el trabajo mecánico del sistema con el proceso manual.",
+  "actividades": [
+    {
+      "id": "B1",
+      "actividad": "Recepción, validación de formato y registro de 8 documentos",
+      "minutos": 20
+    },
+    {
+      "id": "B2",
+      "actividad": "Lectura y extracción manual de texto, tablas y ubicaciones",
+      "minutos": 60
+    },
+    {
+      "id": "B3",
+      "actividad": "Búsqueda de evidencia para los 7 requisitos",
+      "minutos": 50
+    },
+    {
+      "id": "B4",
+      "actividad": "Revisión técnica, contraste de fuentes y decisión",
+      "minutos": 90
+    },
+    {
+      "id": "B5",
+      "actividad": "Elaboración manual del informe Excel y Word",
+      "minutos": 40
+    }
+  ],
+  "supuestos": [
+    "Un especialista conoce el expediente y el checklist.",
+    "No se incluye espera por terceros ni reuniones.",
+    "El tiempo del sistema se mide de extremo a extremo en el equipo de demostración.",
+    "La revisión humana sigue siendo necesaria; el sistema reduce el trabajo mecánico, no el juicio técnico."
+  ],
+  "revision_humana_min": 90,
+  "aciertos": {
+    "clasificacion_inicial": "7 de 8 documentos correctos sin intervención (87.5%)",
+    "clasificacion_final": "8 de 8 tras la corrección humana (100%)",
+    "requisitos_cubiertos": "7 de 7 con propuesta registrada (100%)",
+    "propuestas_validas": "7 de 7 propuestas válidas (100%)",
+    "coincidencia_con_decision_final": "2 de 4 decisiones aceptadas sin cambio (50%); 1 modificada y 1 descartada"
+  }
+}

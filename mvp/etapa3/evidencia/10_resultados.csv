@@ -1,0 +1,8 @@
+requisito_id,requisito,peso_pct,evidencias,estado_efectivo,origen,propuesta_valida,evaluacion_manual,contingencia,integridad_alerta,motivo
+RQ-01,Experiencia del postor,14,2,Requiere revisión especializada,ia_valida,True,False,False,False,"La evidencia localizada es de tipo 'TDR / Bases', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+RQ-02,Personal clave - Residente,17,1,Requiere revisión especializada,ia_valida,True,False,False,False,"La evidencia localizada es de tipo 'TDR / Bases', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+RQ-03,Equipamiento mínimo,11,2,Requiere revisión especializada,ia_valida,True,False,False,False,"La evidencia localizada es de tipo 'TDR / Bases', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+RQ-04,Presupuesto por partidas,21,5,Cumple,ia_valida,True,False,False,False,La evidencia de tipo 'Presupuesto por partidas' contiene los elementos del criterio y alcanza 17 puntos (umbral 12).
+RQ-05,Metrados y sustento,14,2,Requiere revisión especializada,ia_valida,True,False,False,False,"La evidencia localizada es de tipo 'Planos', que no acredita por sí misma el requisito. Se requiere revisión especializada."
+RQ-06,Cronograma valorizado,10,2,Requiere revisión especializada,ia_valida,True,False,False,False,"El tipo documental es el esperado, pero el criterio exige juicio de ingeniería (coherencia o trazabilidad) que el MVP no automatiza."
+RQ-07,Plan de manejo ambiental,13,1,Cumple,ia_valida,True,False,False,False,La evidencia de tipo 'Estudio ambiental' contiene los elementos del criterio y alcanza 48 puntos (umbral 20).

@@ -1,0 +1,32 @@
+{
+  "version": "v1",
+  "descripcion": "Política mínima de acceso del MVP. Los roles y las asignaciones son datos de demostración.",
+  "roles": {
+    "administrador": {
+      "descripcion": "Acceso total, incluida la administración de expedientes.",
+      "permisos": ["ver", "cargar", "analizar", "decidir", "exportar", "administrar"]
+    },
+    "especialista": {
+      "descripcion": "Revisa, decide y exporta los expedientes que tiene asignados.",
+      "permisos": ["ver", "cargar", "analizar", "decidir", "exportar"]
+    },
+    "lector": {
+      "descripcion": "Solo consulta expedientes asignados; no modifica ni exporta.",
+      "permisos": ["ver"]
+    }
+  },
+  "usuarios": {
+    "Lucía Ramos": {
+      "rol": "especialista",
+      "expedientes": ["EXP-2024-089"]
+    },
+    "Carlos Méndez": {
+      "rol": "lector",
+      "expedientes": ["EXP-2024-089"]
+    },
+    "Admin MVP": {
+      "rol": "administrador",
+      "expedientes": ["*"]
+    }
+  }
+}

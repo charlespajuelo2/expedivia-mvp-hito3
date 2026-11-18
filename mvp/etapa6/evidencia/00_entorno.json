@@ -1,0 +1,21 @@
+{
+  "fecha_ejecucion": "2026-11-12T20:21:02",
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26300-SP0",
+  "base_datos": "mvp\\etapa6\\evidencia\\mvp_etapa6.db",
+  "corpus": "mvp\\etapa6\\muestras\\caso",
+  "exportaciones": "mvp\\etapa6\\evidencia\\exportaciones",
+  "versiones": {
+    "pypdf": "7.0.1",
+    "python-docx": "1.2.0",
+    "openpyxl": "3.1.5",
+    "streamlit": "1.65.0"
+  },
+  "expedientes": [
+    "EXP-2024-089",
+    "EXP-2024-089-SIN-EVIDENCIA",
+    "EXP-2024-090",
+    "EXP-2024-089-PRUEBAS"
+  ],
+  "alcance": "validación integral de extremo a extremo y material de entrega"
+}

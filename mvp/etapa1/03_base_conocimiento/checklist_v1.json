@@ -1,0 +1,144 @@
+{
+  "kb_id": "KB-EXP2024-089-v1",
+  "version": "1.0",
+  "fecha": "2026-11-11",
+  "estado": "vigente_para_mvp",
+  "expediente": {
+    "id": "EXP-2024-089",
+    "nombre": "Carretera Central Tramo 2 · Km 42–78",
+    "especialidad": "Pavimentos",
+    "version": "v3",
+    "responsable": "Lucía Ramos",
+    "fecha_referencia": "2024-09-14",
+    "tipo_datos": "sintéticos/representativos"
+  },
+  "estados": [
+    {
+      "id": "cumple",
+      "nombre": "Cumple",
+      "definicion": "La evidencia encontrada satisface el criterio en su totalidad.",
+      "factor_cumplimiento": 1.0
+    },
+    {
+      "id": "parcial",
+      "nombre": "Cumple parcialmente",
+      "definicion": "La evidencia satisface el criterio solo en parte o con observaciones menores.",
+      "factor_cumplimiento": 0.5
+    },
+    {
+      "id": "no_cumple",
+      "nombre": "No cumple",
+      "definicion": "La evidencia encontrada demuestra que el criterio no se satisface.",
+      "factor_cumplimiento": 0.0
+    },
+    {
+      "id": "no_encontrado",
+      "nombre": "No se encontró información",
+      "definicion": "No se localizó evidencia suficiente; no equivale a incumplimiento.",
+      "factor_cumplimiento": null
+    },
+    {
+      "id": "especialista",
+      "nombre": "Requiere revisión especializada",
+      "definicion": "El caso requiere juicio de ingeniería o la evidencia es ambigua.",
+      "factor_cumplimiento": null
+    }
+  ],
+  "requisitos": [
+    {
+      "id": "RQ-01",
+      "componente": "Aspectos legales y económicos",
+      "requisito": "Experiencia del postor",
+      "criterio": "Facturación mayor a S/ 5 MM en los últimos 5 años",
+      "evidencia_esperada": "Contratos, facturas o constancias de facturación",
+      "fuente_normativa": "TDR §2.1",
+      "peso_pct": 14,
+      "criticidad": "Alta",
+      "estado_inicial": "Cumple"
+    },
+    {
+      "id": "RQ-02",
+      "componente": "Personal",
+      "requisito": "Personal clave - Residente",
+      "criterio": "Ing. Civil colegiado con 8 años de experiencia",
+      "evidencia_esperada": "CV, certificados y constancia de colegiatura",
+      "fuente_normativa": "TDR §2.4",
+      "peso_pct": 17,
+      "criticidad": "Alta",
+      "estado_inicial": "Cumple"
+    },
+    {
+      "id": "RQ-03",
+      "componente": "Equipamiento",
+      "requisito": "Equipamiento mínimo",
+      "criterio": "Lista de 15 equipos propios o alquilados",
+      "evidencia_esperada": "Inventario, facturas o contratos de alquiler",
+      "fuente_normativa": "TDR §2.6",
+      "peso_pct": 11,
+      "criticidad": "Media",
+      "estado_inicial": "Parcial"
+    },
+    {
+      "id": "RQ-04",
+      "componente": "Presupuesto",
+      "requisito": "Presupuesto por partidas",
+      "criterio": "Partidas, metrados y precios unitarios coherentes; ponderación 15%",
+      "evidencia_esperada": "Presupuesto.xlsx, hoja Resumen, celda F18",
+      "fuente_normativa": "TDR §3.2",
+      "peso_pct": 21,
+      "criticidad": "Alta",
+      "estado_inicial": "Cumple"
+    },
+    {
+      "id": "RQ-05",
+      "componente": "Metrados",
+      "requisito": "Metrados y sustento",
+      "criterio": "Coherencia entre planos y hoja de metrados",
+      "evidencia_esperada": "Planos PL-04 y hoja de metrados",
+      "fuente_normativa": "TDR §3.3",
+      "peso_pct": 14,
+      "criticidad": "Alta",
+      "estado_inicial": "No se encontró información"
+    },
+    {
+      "id": "RQ-06",
+      "componente": "Cronograma",
+      "requisito": "Cronograma valorizado",
+      "criterio": "Curva S y ruta crítica coherentes",
+      "evidencia_esperada": "Cronograma valorizado y curva S",
+      "fuente_normativa": "TDR §3.5",
+      "peso_pct": 10,
+      "criticidad": "Media",
+      "estado_inicial": "Requiere revisión especializada"
+    },
+    {
+      "id": "RQ-07",
+      "componente": "Ambiental",
+      "requisito": "Plan de manejo ambiental",
+      "criterio": "Instrumento ambiental vigente",
+      "evidencia_esperada": "Certificación ambiental y PMA",
+      "fuente_normativa": "TDR §4.1",
+      "peso_pct": 13,
+      "criticidad": "Media",
+      "estado_inicial": "Parcial"
+    }
+  ],
+  "reglas": {
+    "ausencia_evidencia": "No se encontró información",
+    "prohibido_convertir_ausencia_en_no_cumple": true,
+    "decision_humana_obligatoria": true,
+    "decisiones_validas": ["Aceptar", "Modificar", "Descartar", "Derivar a revisión especializada"],
+    "formula_cobertura": "Σ peso de requisitos con decisión humana / Σ peso total × 100",
+    "formula_cumplimiento": "Σ (peso × factor de cumplimiento) / Σ peso de requisitos con decisión concluyente × 100",
+    "requisitos_concluyentes": ["Cumple", "Cumple parcialmente", "No cumple"],
+    "redondeo": "1 decimal, half-up",
+    "integridad": "Cada evidencia registra el hash SHA-256 del documento fuente al momento de la revisión",
+    "contingencia": "Si el servicio de IA no está disponible, el especialista evalúa manualmente y el sistema reintenta en segundo plano",
+    "fuente_unica": "Solo se usa la base de conocimiento aprobada y versionada; no se consulta normativa en Internet"
+  },
+  "verificacion": {
+    "suma_ponderaciones_pct": 100,
+    "numero_requisitos": 7,
+    "numero_documentos": 6
+  }
+}

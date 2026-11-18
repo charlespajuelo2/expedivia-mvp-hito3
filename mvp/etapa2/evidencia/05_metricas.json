@@ -1,0 +1,53 @@
+{
+  "caso": {
+    "expediente_id": "EXP-2024-089",
+    "documentos_total": 6,
+    "validos": 6,
+    "rechazados": 0,
+    "cache_hits": 6,
+    "texto_si": 5,
+    "texto_parcial": 1,
+    "texto_no": 0,
+    "clasificados": 6,
+    "sin_clasificar": 0,
+    "corregidos": 1,
+    "fragmentos_total": 61,
+    "duracion_total_ms": 46,
+    "motivos_rechazo": {},
+    "tipos_documentales": {
+      "Especificaciones técnicas": 1,
+      "Estudio de suelos": 1,
+      "Memoria técnica": 1,
+      "Planos": 1,
+      "Presupuesto por partidas": 1,
+      "TDR / Bases": 1
+    }
+  },
+  "casos_borde": {
+    "expediente_id": "EXP-2024-089-BORDES",
+    "documentos_total": 5,
+    "validos": 1,
+    "rechazados": 4,
+    "cache_hits": 0,
+    "texto_si": 1,
+    "texto_parcial": 0,
+    "texto_no": 0,
+    "clasificados": 0,
+    "sin_clasificar": 1,
+    "corregidos": 0,
+    "fragmentos_total": 1,
+    "duracion_total_ms": 28,
+    "motivos_rechazo": {
+      "FORMATO_NO_SOPORTADO": 1,
+      "ARCHIVO_DANADO": 1,
+      "PDF_ESCANEADO": 1,
+      "PDF_PROTEGIDO": 1
+    },
+    "tipos_documentales": {
+      "No reconocido": 1
+    }
+  },
+  "primera_carga_ms": 298,
+  "segunda_carga_ms": 47,
+  "documentos_cache": 6
+}

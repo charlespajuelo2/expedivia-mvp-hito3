@@ -1,0 +1,171 @@
+{
+  "caso": {
+    "metricas": {
+      "requisitos_total": 7,
+      "cobertura_revision_pct": 100.0,
+      "peso_decidido_pct": 58.0,
+      "avance_pct": 39.0,
+      "cumplimiento_pct": 88.6,
+      "decisiones_registradas": 4,
+      "aceptadas": 2,
+      "modificadas": 1,
+      "descartadas": 1,
+      "cumple": 2,
+      "parcial": 1,
+      "no_cumple": 0,
+      "sin_informacion": 1,
+      "requiere_revision": 3,
+      "integridad_alertas": 0
+    },
+    "decisiones_historial": 6,
+    "decisiones_vigentes": 4
+  },
+  "exportacion": {
+    "xlsx": {
+      "hojas": [
+        "Resumen",
+        "Requisitos",
+        "Decisiones",
+        "Propuestas",
+        "Evidencias",
+        "Documentos",
+        "Auditoría"
+      ],
+      "requisitos_filas_datos": 7,
+      "decisiones_filas_datos": 6,
+      "resumen_contiene_avance": true,
+      "cabecera_requisitos": [
+        "Req.",
+        "Requisito",
+        "Peso %",
+        "Criterio",
+        "Evidencias",
+        "Estado propuesto",
+        "Decisión",
+        "Estado final",
+        "Origen",
+        "Responsable",
+        "Fecha decisión",
+        "Motivo",
+        "Fuente",
+        "Ubicación",
+        "Cita"
+      ],
+      "bytes": 22349
+    },
+    "docx": {
+      "secciones": [
+        "1. Resumen ejecutivo",
+        "2. Resultados por requisito",
+        "3. Observaciones y fuentes",
+        "4. Historial de decisiones",
+        "5. Alcance y limitaciones"
+      ],
+      "tablas": 3,
+      "contiene_avance": true,
+      "contiene_limitaciones": true,
+      "bytes": 39876
+    },
+    "tiempos_ms": {
+      "Resumen del expediente": 24.9,
+      "Exportación Excel + Word": 138.0
+    },
+    "umbral_ms": 5000.0,
+    "bajo_umbral": true
+  },
+  "permisos": {
+    "matriz": [
+      [
+        "Admin MVP",
+        "administrador",
+        "sí",
+        "sí",
+        "sí",
+        "sí",
+        "sí",
+        "sí"
+      ],
+      [
+        "Carlos Méndez",
+        "lector",
+        "sí",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      [
+        "Lucía Ramos",
+        "especialista",
+        "sí",
+        "sí",
+        "sí",
+        "sí",
+        "sí",
+        "no"
+      ]
+    ],
+    "denegaciones": [
+      [
+        "Lector intenta decidir",
+        "denegado",
+        "El rol «lector» no tiene el permiso «decidir»."
+      ],
+      [
+        "Lector intenta exportar",
+        "denegado",
+        "El rol «lector» no tiene el permiso «exportar»."
+      ],
+      [
+        "Especialista sin expediente asignado",
+        "denegado",
+        "El usuario «Lucía Ramos» no tiene asignado el expediente «EXP-2024-090»."
+      ]
+    ]
+  },
+  "error_reintento": {
+    "motivo": "ARCHIVO_DANADO",
+    "mensaje": "El PDF está dañado o no es un PDF válido. Detalle: Stream has ended unexpectedly",
+    "validos_antes": 8,
+    "validos_tras_error": 8,
+    "validos_tras_reintento": 9,
+    "avance_conservado": true,
+    "decisiones_conservadas": true
+  },
+  "estado_vacio": {
+    "metricas": {
+      "requisitos_total": 7,
+      "cobertura_revision_pct": 0.0,
+      "peso_decidido_pct": 0.0,
+      "avance_pct": 0.0,
+      "cumplimiento_pct": null,
+      "decisiones_registradas": 0,
+      "aceptadas": 0,
+      "modificadas": 0,
+      "descartadas": 0,
+      "cumple": 0,
+      "parcial": 0,
+      "no_cumple": 0,
+      "sin_informacion": 0,
+      "requiere_revision": 0,
+      "integridad_alertas": 0
+    },
+    "xlsx_hojas": [
+      "Resumen",
+      "Requisitos",
+      "Decisiones",
+      "Propuestas",
+      "Evidencias",
+      "Documentos",
+      "Auditoría"
+    ],
+    "docx_secciones": [
+      "1. Resumen ejecutivo",
+      "2. Resultados por requisito",
+      "3. Observaciones y fuentes",
+      "4. Historial de decisiones",
+      "5. Alcance y limitaciones"
+    ]
+  }
+}

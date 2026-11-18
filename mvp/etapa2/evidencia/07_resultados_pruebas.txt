@@ -1,0 +1,6 @@
+Comando: python -m pytest mvp/tests -q
+
+....................                                                     [100%]
+20 passed in 3.32s
+
+Codigo de salida: 0

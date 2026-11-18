@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+
+# --- Datos generados en ejecución ---
+mvp/data/
+
+# --- Material de terceros no referenciado por el código ---
+normativa mtc/
+docs prueba/
+
+# --- Artefactos de trabajo de la entrega ---
+mvp/etapa6/entrega/revision_ppt/
+mvp/etapa6/entrega/revision_video/
+mvp/etapa6/entrega/narracion_demo.wav
+
+# --- Sistema ---
+Thumbs.db
+desktop.ini
+.DS_Store

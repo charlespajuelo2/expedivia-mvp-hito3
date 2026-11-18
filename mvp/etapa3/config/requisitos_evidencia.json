@@ -1,0 +1,205 @@
+{
+  "version": "1.0",
+  "expediente_id": "EXP-2024-089",
+  "fecha": "2026-11-11",
+  "descripcion": "Perfiles de recuperación de evidencia para los 7 requisitos representativos del checklist KB-EXP2024-089-v1. Los términos se comparan sin acentos ni mayúsculas. 'tipos_que_prueban' indica los tipos documentales que, por sí mismos, pueden sustentar una conclusión automática; 'tipos_complementarios' solo aportan contexto.",
+  "puntaje_minimo": 6,
+  "max_evidencias": 5,
+  "max_por_documento": 2,
+  "bonus_tipo_esperado": 4,
+  "requisitos": [
+    {
+      "id": "RQ-01",
+      "requisito": "Experiencia del postor",
+      "criterio": "Facturación mayor a S/ 5 MM en los últimos 5 años",
+      "evidencia_esperada": "Contratos, facturas o constancias de facturación",
+      "peso_pct": 14,
+      "terminos": {
+        "experiencia del postor": 5,
+        "facturacion": 5,
+        "constancias de facturacion": 7,
+        "contratos": 3,
+        "facturas": 3,
+        "s/ 5 000 000": 6
+      },
+      "tipos_esperados": [
+        "TDR / Bases",
+        "Constancia de facturación",
+        "Contrato",
+        "Factura"
+      ],
+      "tipos_que_prueban": [
+        "Constancia de facturación",
+        "Contrato",
+        "Factura"
+      ],
+      "tipos_complementarios": ["TDR / Bases"],
+      "requiere_juicio": false,
+      "puntaje_cumple": 18,
+      "puntaje_minimo": 10,
+      "juicio_esperado": "Requiere revisión especializada",
+      "nota": "El corpus solo contiene la exigencia del TDR; no hay constancias ni facturas que prueben la facturación."
+    },
+    {
+      "id": "RQ-02",
+      "requisito": "Personal clave - Residente",
+      "criterio": "Ing. Civil colegiado con 8 años de experiencia",
+      "evidencia_esperada": "CV, certificados y constancia de colegiatura",
+      "peso_pct": 17,
+      "terminos": {
+        "personal clave": 5,
+        "residente de obra": 5,
+        "ingeniero civil colegiado": 7,
+        "constancia de colegiatura": 7,
+        "ocho anos de experiencia": 5,
+        "cv": 2,
+        "certificados": 3
+      },
+      "tipos_esperados": [
+        "TDR / Bases",
+        "CV",
+        "Certificado",
+        "Constancia de colegiatura"
+      ],
+      "tipos_que_prueban": [
+        "CV",
+        "Certificado",
+        "Constancia de colegiatura"
+      ],
+      "tipos_complementarios": ["TDR / Bases"],
+      "requiere_juicio": false,
+      "puntaje_cumple": 18,
+      "puntaje_minimo": 10,
+      "juicio_esperado": "Requiere revisión especializada",
+      "nota": "El TDR describe el perfil exigido, pero el expediente no incluye el CV ni la constancia de colegiatura."
+    },
+    {
+      "id": "RQ-03",
+      "requisito": "Equipamiento mínimo",
+      "criterio": "Lista de 15 equipos propios o alquilados",
+      "evidencia_esperada": "Inventario, facturas o contratos de alquiler",
+      "peso_pct": 11,
+      "terminos": {
+        "equipamiento minimo": 7,
+        "quince equipos": 7,
+        "equipos propios o alquilados": 7,
+        "inventario": 4,
+        "contratos de alquiler": 6
+      },
+      "tipos_esperados": [
+        "TDR / Bases",
+        "Inventario de equipos",
+        "Factura",
+        "Contrato de alquiler"
+      ],
+      "tipos_que_prueban": [
+        "Inventario de equipos",
+        "Factura",
+        "Contrato de alquiler"
+      ],
+      "tipos_complementarios": ["TDR / Bases"],
+      "requiere_juicio": false,
+      "puntaje_cumple": 18,
+      "puntaje_minimo": 10,
+      "juicio_esperado": "Requiere revisión especializada",
+      "nota": "Solo se localiza la exigencia del TDR; no hay inventario ni contratos de alquiler."
+    },
+    {
+      "id": "RQ-04",
+      "requisito": "Presupuesto por partidas",
+      "criterio": "Partidas, metrados y precios unitarios coherentes; ponderación 21%",
+      "evidencia_esperada": "Presupuesto.xlsx, hoja Resumen (encabezado y total)",
+      "peso_pct": 21,
+      "terminos": {
+        "presupuesto": 5,
+        "partida": 4,
+        "metrado": 3,
+        "precio unitario": 6,
+        "subtotal": 3,
+        "igv": 3,
+        "total presupuesto": 7,
+        "analisis de precios": 5
+      },
+      "tipos_esperados": ["Presupuesto por partidas"],
+      "tipos_que_prueban": ["Presupuesto por partidas"],
+      "tipos_complementarios": ["TDR / Bases"],
+      "requiere_juicio": false,
+      "puntaje_cumple": 12,
+      "puntaje_minimo": 8,
+      "juicio_esperado": "Cumple",
+      "nota": "El presupuesto contiene partidas, metrados, precios unitarios, subtotal, IGV y total."
+    },
+    {
+      "id": "RQ-05",
+      "requisito": "Metrados y sustento",
+      "criterio": "Coherencia entre planos y hoja de metrados",
+      "evidencia_esperada": "Planos PL-04 y hoja de metrados",
+      "peso_pct": 14,
+      "terminos": {
+        "plano": 4,
+        "planta": 2,
+        "perfil longitudinal": 4,
+        "seccion transversal": 4,
+        "pl-04": 10,
+        "metrado": 8,
+        "hoja de metrados": 10,
+        "coherencia": 3
+      },
+      "tipos_esperados": ["Planos", "Metrados"],
+      "tipos_que_prueban": ["Metrados"],
+      "tipos_complementarios": ["Planos"],
+      "requiere_juicio": false,
+      "puntaje_cumple": 15,
+      "puntaje_minimo": 9,
+      "juicio_esperado": "Requiere revisión especializada",
+      "nota": "Se localizan planos, pero la lámina PL-04 está escaneada (sin capa de texto) y no hay hoja de metrados."
+    },
+    {
+      "id": "RQ-06",
+      "requisito": "Cronograma valorizado",
+      "criterio": "Curva S y ruta crítica coherentes",
+      "evidencia_esperada": "Cronograma valorizado y curva S",
+      "peso_pct": 10,
+      "terminos": {
+        "cronograma valorizado": 10,
+        "cronograma": 6,
+        "curva s": 8,
+        "ruta critica": 8,
+        "plazo de ejecucion": 5,
+        "valorizado": 5
+      },
+      "tipos_esperados": ["Cronograma valorizado"],
+      "tipos_que_prueban": ["Cronograma valorizado"],
+      "tipos_complementarios": ["Presupuesto por partidas"],
+      "requiere_juicio": true,
+      "puntaje_cumple": 18,
+      "puntaje_minimo": 12,
+      "juicio_esperado": "Requiere revisión especializada",
+      "nota": "El cronograma existe, pero la coherencia de la curva S y la ruta crítica requiere juicio de ingeniería."
+    },
+    {
+      "id": "RQ-07",
+      "requisito": "Plan de manejo ambiental",
+      "criterio": "Instrumento ambiental vigente",
+      "evidencia_esperada": "Certificación ambiental y PMA",
+      "peso_pct": 13,
+      "terminos": {
+        "plan de manejo ambiental": 10,
+        "instrumento ambiental": 8,
+        "certificacion ambiental": 8,
+        "medidas de mitigacion": 6,
+        "pma": 5,
+        "impacto ambiental": 5,
+        "vigente": 2
+      },
+      "tipos_esperados": ["Estudio ambiental"],
+      "tipos_que_prueban": ["Estudio ambiental"],
+      "tipos_complementarios": [],
+      "requiere_juicio": false,
+      "puntaje_cumple": 20,
+      "puntaje_minimo": 12,
+      "juicio_esperado": "Cumple",
+      "nota": "El PMA acredita instrumento ambiental aprobado y vigente, con medidas de mitigación."
+    }
+  ]
+}

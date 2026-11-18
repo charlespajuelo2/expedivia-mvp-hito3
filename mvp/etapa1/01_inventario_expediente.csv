@@ -1,0 +1,7 @@
+id,archivo,tipo_documental,componente,version,formato,texto_recuperable,hash_sha256,estado_clasificacion,confianza,observaciones
+DOC-01,TDR_Carretera_Central_v3.pdf,TDR / Bases,TDR,v3,PDF,si,PENDIENTE,Clasificado,96,Documento base del expediente
+DOC-02,Presupuesto.xlsx,Presupuesto por partidas,Presupuesto,v3,XLSX,si,PENDIENTE,Clasificado,92,"Fórmulas preservadas; hoja Resumen celda F18"
+DOC-03,Memoria_Calculo_Pavimentos.docx,Memoria técnica,Pavimentos,v3,DOCX,si,PENDIENTE,Clasificado,88,Memoria de cálculo de pavimentos
+DOC-04,Planos_PL-01_PL-08.pdf,Planos,Planos,v3,PDF,parcial,PENDIENTE,Clasificado,94,"Páginas 3-5 sin capa de texto; requiere OCR o reemplazo"
+DOC-05,EETT_General_v2.docx,Especificaciones técnicas,EETT,v2,DOCX,si,PENDIENTE,Sin clasificar,41,"Confianza < 70%; requiere corrección humana"
+DOC-06,Estudio_Suelos_Lab.xlsx,Estudio de suelos,Geotecnia,v1,XLSX,si,PENDIENTE,Clasificado,85,Ensayos de laboratorio

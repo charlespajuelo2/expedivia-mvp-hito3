@@ -1,0 +1,50 @@
+{
+  "kb_id": "KB-EXP2024-089-v1",
+  "version": "1.0",
+  "fecha_creacion": "2026-11-11",
+  "estado": "vigente_para_mvp",
+  "responsable": "Especialista vial senior (por designar)",
+  "aprobado_por": "Pendiente de validación del especialista",
+  "alcance": "Caso representativo EXP-2024-089 — Carretera Central Tramo 2, Km 42-78, especialidad Pavimentos",
+  "moneda": "PEN",
+  "fuentes": [
+    {
+      "id": "TDR-01",
+      "nombre": "TDR contrato",
+      "version": "v1",
+      "vigencia_desde": "2024-07-15",
+      "norma": "Contrato 089-2024",
+      "estado": "vigente"
+    },
+    {
+      "id": "CHK-02",
+      "nombre": "Checklist vial",
+      "version": "v2",
+      "vigencia_desde": "2024-09-10",
+      "norma": "MTC-RD-028",
+      "estado": "vigente"
+    },
+    {
+      "id": "MTC-05",
+      "nombre": "Normativa MTC",
+      "version": "v5",
+      "vigencia_desde": "2024-08-01",
+      "norma": "DG-2018",
+      "estado": "vigente"
+    },
+    {
+      "id": "PON-03",
+      "nombre": "Ponderaciones",
+      "version": "v3",
+      "vigencia_desde": "2024-09-12",
+      "norma": "Matriz de evaluación",
+      "estado": "aprobado"
+    }
+  ],
+  "notas": [
+    "Base representativa para el MVP; reemplazar por los documentos oficiales antes de la Etapa 3.",
+    "Las ponderaciones originales del prototipo sumaban 71%; se normalizaron a 100% preservando el orden relativo.",
+    "El checklist oficial de 23 ítems se incorporará cuando el especialista lo entregue.",
+    "Los hashes SHA-256 se calculan en la Etapa 2."
+  ]
+}

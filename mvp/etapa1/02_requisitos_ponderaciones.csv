@@ -1,0 +1,8 @@
+id,componente,requisito,criterio,evidencia_esperada,fuente_normativa,peso_pct,criticidad,estado_inicial,observaciones
+RQ-01,Aspectos legales y económicos,Experiencia del postor,Facturación mayor a S/ 5 MM en los últimos 5 años,"Contratos, facturas o constancias de facturación",TDR §2.1,14,Alta,Cumple,Ponderación normalizada para el caso representativo
+RQ-02,Personal,Personal clave - Residente,Ing. Civil colegiado con 8 años de experiencia,"CV, certificados y constancia de colegiatura",TDR §2.4,17,Alta,Cumple,Ponderación normalizada para el caso representativo
+RQ-03,Equipamiento,Equipamiento mínimo,Lista de 15 equipos propios o alquilados,"Inventario, facturas o contratos de alquiler",TDR §2.6,11,Media,Parcial,Ponderación normalizada para el caso representativo
+RQ-04,Presupuesto,Presupuesto por partidas,"Partidas, metrados y precios unitarios coherentes; ponderación 15%","Presupuesto.xlsx, hoja Resumen, celda F18",TDR §3.2,21,Alta,Cumple,Ponderación normalizada para el caso representativo
+RQ-05,Metrados,Metrados y sustento,Coherencia entre planos y hoja de metrados,"Planos PL-04 y hoja de metrados",TDR §3.3,14,Alta,No hallado,Sin evidencia localizada en el expediente
+RQ-06,Cronograma,Cronograma valorizado,Curva S y ruta crítica coherentes,Cronograma valorizado y curva S,TDR §3.5,10,Media,Requiere especialista,Requiere juicio de ingeniería
+RQ-07,Ambiental,Plan de manejo ambiental,Instrumento ambiental vigente,Certificación ambiental y PMA,TDR §4.1,13,Media,Parcial,Ponderación normalizada para el caso representativo

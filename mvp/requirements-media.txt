@@ -1,0 +1,14 @@
+# Dependencias opcionales para regenerar capturas y video de la Etapa 6.
+#
+# Instalación:
+#   python -m pip install -r mvp/requirements.txt
+#   python -m pip install -r mvp/requirements-media.txt
+#   python -m playwright install chromium
+#
+# Solo son necesarias para ejecutar:
+#   - mvp/scripts/capturar_pantallas_etapa6.py
+#   - mvp/scripts/grabar_video_etapa6.py
+# La aplicación, las pruebas y las exportaciones no las requieren.
+
+playwright>=1.48
+imageio-ffmpeg>=0.5

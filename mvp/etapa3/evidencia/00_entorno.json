@@ -1,0 +1,25 @@
+{
+  "fecha_ejecucion": "2026-11-11T22:30:29",
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26300-SP0",
+  "base_datos": "mvp\\etapa3\\evidencia\\mvp_etapa3.db",
+  "corpus": "mvp\\etapa3\\muestras",
+  "perfiles_evidencia": "mvp\\etapa3\\config\\requisitos_evidencia.json",
+  "versiones": {
+    "pypdf": "7.0.1",
+    "pdfplumber": "0.11.10",
+    "python-docx": "1.2.0",
+    "openpyxl": "3.1.5",
+    "reportlab": "5.1.0",
+    "streamlit": "1.65.0"
+  },
+  "extractor_version": "1.0.0",
+  "umbral_confianza": 70,
+  "ia": {
+    "proveedor_por_defecto": "reglas",
+    "modelo_configurado": "gpt-4o-mini",
+    "api_key_configurada": false,
+    "max_intentos": 3,
+    "max_evidencias": 3
+  }
+}

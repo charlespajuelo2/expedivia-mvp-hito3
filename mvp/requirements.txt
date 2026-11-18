@@ -1,0 +1,24 @@
+# Dependencias del MVP — Etapas 2 a 6
+#
+# Instalación:
+#   python -m pip install -r mvp/requirements.txt
+#
+# Para regenerar capturas y video (opcional, Etapa 6):
+#   python -m pip install -r mvp/requirements-media.txt
+
+# --- Procesamiento documental ---
+pypdf>=6.0
+pdfplumber>=0.11
+python-docx>=1.1
+openpyxl>=3.1
+
+# --- Interfaz ---
+streamlit>=1.40
+
+# --- Pruebas y generación del corpus de demostración ---
+pytest>=8.0
+reportlab>=4.0
+xlsxwriter>=3.2
+
+# --- Presentación de la Etapa 6 (PPT) ---
+python-pptx>=1.0

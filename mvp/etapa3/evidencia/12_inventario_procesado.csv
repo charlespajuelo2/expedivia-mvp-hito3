@@ -1,0 +1,9 @@
+id,nombre_archivo,formato,estado,motivo_rechazo,sha256,texto_recuperable,paginas,fragmentos,cache_hit,tipo_documental,componente,confianza,estado_clasificacion,clasificacion_origen,duracion_ms
+1,Cronograma_Valorizado.xlsx,XLSX,VALIDO,,0144f4a1d133e415e5578e5151f5ed79f33d17ab0c8c10215bcf642acd2fa83d,si,,36,False,Cronograma valorizado,Cronograma,82,Clasificado,automatico,32
+2,EETT_General_v2.docx,DOCX,VALIDO,,823329c1c3fc3fc9a022063c95f5790bb6aedf4185fbccd8a2a36095e6ba3687,si,,4,False,Especificaciones técnicas,EETT,100,Clasificado,correccion_humana,25
+3,Estudio_Suelos_Lab.xlsx,XLSX,VALIDO,,589b66ede5509e52f7a9da6478ad09e2d481c58b6dfacdaba3056aef46fc84b4,si,,14,False,Estudio de suelos,Geotecnia,96,Clasificado,automatico,49
+4,Memoria_Calculo_Pavimentos.docx,DOCX,VALIDO,,b6a75c06af2e276fc38f8a651afad058d1795bff8b2391b42c7ba42c57605a73,si,,12,False,Memoria técnica,Pavimentos,88,Clasificado,automatico,41
+5,Planos_PL-01_PL-08.pdf,PDF,VALIDO,,22f4da2dd171558934b3ae15af479ae35b677aae7e9ef131f3115433b63a9583,parcial,8,5,False,Planos,Planos,96,Clasificado,automatico,211
+6,PMA_Ambiental.pdf,PDF,VALIDO,,be2fb060167d27ad5ba7bfb322e65ce63b53b97d57aaa5c9692d61472b80dcdc,si,1,1,False,Estudio ambiental,Ambiental,89,Clasificado,automatico,98
+7,Presupuesto.xlsx,XLSX,VALIDO,,97caacf2815ce2b63afd16f7ff3dabcc57fde3f408dc61e343374bbdd965ec2a,si,,24,False,Presupuesto por partidas,Presupuesto,94,Clasificado,automatico,36
+8,TDR_Carretera_Central_v3.pdf,PDF,VALIDO,,91a935b79c365e05e79414baedfaec3ac1b841213657723f4d6267ed9cc25e03,si,1,2,False,TDR / Bases,TDR,90,Clasificado,automatico,53

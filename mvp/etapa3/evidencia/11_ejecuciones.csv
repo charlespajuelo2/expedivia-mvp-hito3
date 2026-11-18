@@ -1,0 +1,14 @@
+id,expediente_id,requisito_id,proveedor,modelo,estado,intentos,duracion_ms,tokens_entrada,tokens_salida,error,creado_en
+7,EXP-2024-089,RQ-07,reglas,determinista-v1,VALIDA,1,7,0,0,,2026-11-11T22:30:27
+6,EXP-2024-089,RQ-06,reglas,determinista-v1,VALIDA,1,8,0,0,,2026-11-11T22:30:27
+5,EXP-2024-089,RQ-05,reglas,determinista-v1,VALIDA,1,8,0,0,,2026-11-11T22:30:27
+4,EXP-2024-089,RQ-04,reglas,determinista-v1,VALIDA,1,8,0,0,,2026-11-11T22:30:27
+3,EXP-2024-089,RQ-03,reglas,determinista-v1,VALIDA,1,16,0,0,,2026-11-11T22:30:27
+2,EXP-2024-089,RQ-02,reglas,determinista-v1,VALIDA,1,15,0,0,,2026-11-11T22:30:27
+1,EXP-2024-089,RQ-01,reglas,determinista-v1,VALIDA,1,13,0,0,,2026-11-11T22:30:27
+13,EXP-2024-089-VALIDACION,RQ-04,fallido,sin-servicio,ERROR,3,0,0,0,IA_NO_DISPONIBLE: El servicio de IA no está disponible. | IA_NO_DISPONIBLE: El servicio de IA no está disponible. | IA_NO_DISPONIBLE: El servicio de IA no está disponible.,2026-11-11T22:30:28
+10,EXP-2024-089-VALIDACION,RQ-04,guionizado-reintento,guion-v1,VALIDA,2,37,0,0,,2026-11-11T22:30:28
+9,EXP-2024-089-VALIDACION,RQ-04,guionizado-rechazo,guion-v1,RECHAZADA,3,56,0,0,Intento 1 · HASH_NO_COINCIDE [fuente.sha256]: El SHA-256 no coincide con el documento fuente registrado. | Intento 1 · CITA_NO_ENCONTRADA [cita]: La cita no aparece textualmente en el fragmento citado. | Intento 2 · HASH_NO_COINCIDE [fuente.sha256]: El SHA-256 no coincide con el documento fuente registrado. | Intento 2 · CITA_NO_ENCONTRADA [cita]: La cita no aparece textualmente en el fragmento citado. | Intento 3 · HASH_NO_COINCIDE [fuente.sha256]: El SHA-256 no coincide con el documento fuente registrado. | Intento 3 · CITA_NO_ENCONTRADA [cita]: La cita no aparece textualmente en el fragmento citado.,2026-11-11T22:30:27
+12,EXP-2024-089-INTEGRIDAD,RQ-04,integridad,verificador-integridad,ESCALADA,0,0,0,0,Presupuesto_integridad.xlsx (FUENTE_MODIFICADA),2026-11-11T22:30:28
+11,EXP-2024-089-INTEGRIDAD,RQ-04,reglas,determinista-v1,VALIDA,1,13,0,0,,2026-11-11T22:30:28
+8,EXP-2024-089-CONTROL,RQ-01,reglas,determinista-v1,VALIDA,1,20,0,0,,2026-11-11T22:30:27
