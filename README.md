@@ -47,12 +47,14 @@ generada por `ejecutar_etapa6`).
 
 ## Demo en Streamlit Community Cloud
 
+**App publicada:** <https://expedivia-mvp.streamlit.app>
+
 | Ajuste | Valor |
 |---|---|
 | Repositorio | `charlespajuelo2/expedivia-mvp-hito3` |
 | Rama | `main` |
 | Archivo principal | `mvp/app.py` |
-| Python | 3.12 (o 3.13) |
+| Python | 3.12 |
 
 Pasos:
 

@@ -96,6 +96,10 @@ python -m streamlit run mvp/app.py
 Abrir `http://localhost:8501`. La barra lateral permite elegir usuario, rol y
 expediente. La base de datos puede cambiarse en el campo «Base de datos SQLite».
 
+Demo pública: <https://expedivia-mvp.streamlit.app>. Al primer arranque copia el
+caso `EXP-2024-089` desde la evidencia de la Etapa 6 si la base de trabajo no
+existe; el almacenamiento de Community Cloud es efímero.
+
 ### 5.3 Pruebas automatizadas
 
 ```powershell
