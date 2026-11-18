@@ -1,0 +1,11 @@
+[theme]
+base = "light"
+primaryColor = "#1f4e79"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f6f9"
+textColor = "#1a1a1a"
+font = "sans serif"
+
+[server]
+# Coincide con TAMANO_MAXIMO_MB de mvp/core/config.py.
+maxUploadSize = 25

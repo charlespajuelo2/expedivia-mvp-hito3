@@ -45,6 +45,28 @@ generada por `ejecutar_etapa6`).
 | [`mvp/etapa6/README.md`](mvp/etapa6/README.md) | Reproducción de la entrega y material audiovisual |
 | [`MVP_HITO3_PLAN_Y_CHECKLIST.md`](MVP_HITO3_PLAN_Y_CHECKLIST.md) | Plan y estado por etapa |
 
+## Demo en Streamlit Community Cloud
+
+| Ajuste | Valor |
+|---|---|
+| Repositorio | `charlespajuelo2/expedivia-mvp-hito3` |
+| Rama | `main` |
+| Archivo principal | `mvp/app.py` |
+| Python | 3.12 (o 3.13) |
+
+Pasos:
+
+1. Entrar a <https://share.streamlit.io> con la cuenta de GitHub.
+2. **Create app** → **Yup, I have an app**.
+3. Completar repositorio, rama y archivo principal con los valores de la tabla.
+4. En **Advanced settings**, elegir Python 3.12.
+5. **Deploy**.
+
+La app arranca con el caso `EXP-2024-089` precargado desde
+`mvp/etapa6/evidencia/mvp_etapa6.db`: si la base de trabajo no existe, se copia
+una sola vez. El almacenamiento de Community Cloud es efímero, así que los
+cambios que hagan los visitantes se pierden al reiniciar la app.
+
 ## Estructura
 
 ```

@@ -7,6 +7,7 @@ Ejecutar desde la raíz del proyecto::
 
 from __future__ import annotations
 
+import shutil
 import sys
 from pathlib import Path
 
@@ -59,6 +60,25 @@ def _filas_documentos(documentos: list[dict]) -> list[dict]:
             }
         )
     return filas
+
+
+def _sembrar_bd_demo(ruta_bd: str | Path) -> bool:
+    """Copia el caso de la Etapa 6 si aún no existe la base de trabajo.
+
+    Streamlit Community Cloud parte de un sistema de archivos vacío en cada
+    reinicio: sin esto, la demo pública arrancaría sin documentos ni decisiones.
+    Solo actúa sobre la ruta por defecto y nunca sobrescribe una base existente.
+    """
+
+    destino = Path(ruta_bd)
+    if destino.exists() or destino != config.RUTA_BD:
+        return False
+    origen = config.DIR_EVIDENCIA_ETAPA6 / "mvp_etapa6.db"
+    if not origen.is_file():
+        return False
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(origen, destino)
+    return True
 
 
 def _guardar_subida(expediente: str, archivo) -> Path:
@@ -1157,6 +1177,7 @@ def main() -> None:
         layout="wide",
     )
     config.preparar_directorios()
+    bd_demo = _sembrar_bd_demo(config.RUTA_BD)
 
     try:
         politica = access.cargar_politica()
@@ -1179,6 +1200,11 @@ def main() -> None:
     with st.sidebar:
         st.header("Sesión y configuración")
         ruta_bd = st.text_input("Base de datos SQLite", value=str(config.RUTA_BD))
+        if bd_demo:
+            st.caption(
+                "Se cargó el caso de demostración **EXP-2024-089** desde la "
+                "evidencia de la Etapa 6."
+            )
         usuario = st.selectbox("Usuario", nombres, index=indice_usuario)
         rol = politica.rol(usuario) or "sin rol"
         permisos = ", ".join(sorted(politica.permisos(usuario))) or "ninguno"
